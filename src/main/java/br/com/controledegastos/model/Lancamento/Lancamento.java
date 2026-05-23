@@ -1,4 +1,3 @@
-// src/main/java/br/com/controledegastos/model/Lancamento.java
 package br.com.controledegastos.model;
 
 import jakarta.persistence.*;
@@ -19,7 +18,6 @@ public class Lancamento {
     @Enumerated(EnumType.STRING)
     private TipoLancamento tipo;
 
-    // Getters e Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getDescricao() { return descricao; }
